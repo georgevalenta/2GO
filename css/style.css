@@ -1,0 +1,480 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300&subset=latin,latin-ext);
+
+body {
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	background-image: url(images/bg_body.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	margin: -80px 0 15px 50px;
+	padding: 108px 0 0 0;
+	font-size: 32px;
+}
+
+h3{
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+	font-size: 16px
+}
+
+.left{
+	float: left
+}
+
+.right{
+	float: right
+}
+
+.nofloat{
+	float: none
+}
+
+
+#container{	
+	width: 1000px;
+	margin:0 auto 0 auto;
+	padding: 20px 10px 0 10px;
+}
+
+
+/* MENU */
+
+#menu_hide{
+	height: 100px;
+}
+
+#menu{
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+
+#menu_top{
+	height: 8px;
+	width: 1000px;
+	background-image: url(images/bg_body.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center top;
+}
+
+#menu_banner{
+	height: 104px;
+	width: 1008px;
+	position: relative;
+	left:-4px;
+	background-image: url(images/bg_menu.png);
+	background-repeat: no-repeat
+}
+
+#menu h1 span.hidden { text-indent: -10000px; display: block; float: left; }
+
+.logo{
+	margin: 32px 0 0 30px;
+	float: left
+}
+
+#menu ul{
+float: left;
+margin: 0px 0 0 50px;
+padding: 0 0 0 0;
+	
+}
+
+#menu li{
+float: left;
+padding: 0 0 0 20px;
+font-size: 22px;
+font-weight: 200;
+color: #aeaeae;
+	
+}
+
+#menu a, #menu a:visited{
+	text-decoration: none;
+	color: #aeaeae;
+}
+
+#menu a:hover{
+	color: #ff0099
+	
+}
+
+#menu a:active{
+	color: #330066
+}
+
+/* MAIN */
+
+#main a, #main a:visited{
+	color: #330066;
+}
+
+#main a:hover{
+	color: #ff0099
+}
+
+#main a:active{
+	color: #330066;
+}
+
+#main{
+	background-image: url(images/bg_main.png);
+}
+
+#main p{
+	padding: 0 25px 0 25px
+}
+
+.popis{
+	margin: 10px 25px 0 25px;
+	font-weight: 200;
+	font-size: 22px;
+	text-shadow: 1px 1px 0px white;
+	text-align: justify;
+}
+
+.text{
+	font-weight: 200;
+	font-size: 24px;
+	text-shadow: 1px 1px 0px white;
+	margin: 0 0 0 0;
+	
+}
+
+.check{
+	list-style-image: url(images/img_check.png);
+	font-weight: 200;
+	font-size: 20px;
+	text-shadow: 1px 1px 0px white;
+	line-height: 35px;
+	margin: 5px 0 0 15px;
+	
+}
+
+/* PRODUKCE */
+
+.produkce_obsah{
+	height: 300px;
+}
+
+.produkce_fotky{
+	width: 600px;
+	float: left;
+	margin-left: 50px;
+}
+
+.produkce_check{
+	width: 350px;
+	float: left;
+}
+
+/* REKLAMNI MATERIALY */
+
+.materialy_obsah{	
+	height: 400px;
+}
+
+.materialy_klic{
+	width: 225px;
+	float: left;
+	margin-left: 25px;
+	
+}
+
+.materialy_realizace{
+	width: 500px;
+	float: left
+}
+
+.materialy_fotky_male{
+	width: 450px;
+	margin-left: 50px;
+	float: left;
+	
+}
+
+.materialy_fotky_velke{
+	width: 750px;
+	float: left	
+}
+
+.mezera{
+	height: 50px;
+}
+
+/* VINA */
+
+.vina_obsah{
+	height: 315px;
+	
+}
+
+.vina_foto{
+	width: 300px;
+	margin-left: 50px;
+	float: left;
+	
+}
+
+.vina_popis{
+	width: 500px;
+	float: left	
+}
+
+/* KONTAKTY */
+
+.kontakty_obsah{
+	height: 400px;
+}
+
+.formular{
+	width: 350px;
+	height: 400px;
+	float: left;
+	/*background-color: #eeeeee;*/
+}
+
+.mapa{
+	width: 650px;
+	height: 400px;
+	float: left
+}
+
+/* FOOTER */
+
+#footer{
+	height: 150px;
+	background-image: url(images/bg_footer.png);
+	background-position: center top;
+	background-repeat: repeat;
+	color: white;
+	text-shadow: 1px 1px 0px #575757
+}
+
+
+#footer p{	
+	font-size: 20px;
+	line-height: 24px;
+	padding: 20px 0 10px 25px;
+	font-weight: 200;
+	color: white;	
+	text-shadow: none;
+}
+
+#spolecnost{
+	width: 400px;
+	float: left;
+	margin-top: -20px
+	
+}
+
+#sidlo{
+	width: 300px;
+	float: left;
+	margin-top: -20px
+	
+}
+
+#telefon{
+	width: 300px;
+	float: left;
+	margin-top: -20px
+	
+}
+
+#telefon p{
+	font-size: 30px;
+	line-height: 38px;
+	text-align: right;
+	padding-right: 25px;
+}
+
+
+#copyright{
+	height: 30px;
+	line-height: 30px;
+	margin: 20px 0;
+	color: #ddd !important;
+}
+
+#copyright p{
+	font-size: 14px;
+	line-height: 30px;
+	padding: 0 10px 0 10px;
+	font-weight: 300;
+	color: white;	
+}
+
+#footer a, #footer a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+#footer a:hover{
+	color: #330066
+	
+}
+
+#footer a:active{
+	color: black;
+}
+/* FORM */
+
+table{
+	margin: 0;
+}
+
+#contact-area {
+	width: 300px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 240px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #ccc;
+	float: right;
+-moz-border-radius: 4px;
+border-radius: 4px;
+	
+}
+
+#contact-area textarea {
+	height: 250px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+	float: right
+}
+
+#contact-area input.submit-button {
+}
+
+label{
+	float: right;
+	margin: -10px 0 0 15px;
+}
+
+/* Easy Slider */
+
+#slideshow{
+	width: 740px;
+	height: 338px;
+	margin: 50px auto 0 auto;
+	background-image: url(images/bg_slider_shadow.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+#frame{
+	background-image: url(images/bg_slider_frame.png);
+	background-repeat: no-repeat;
+	position: relative;
+	top:-380px;
+	width: 600px;
+	height: 300px;	
+	margin: 0 auto 0 auto;
+}
+
+	#slider{
+		margin: 0 auto 0 auto;
+	}
+
+	#slider ul, #slider li,
+	#slider2 ul, #slider2 li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:600px;
+		height:300px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #slider1prev{ 
+		display:block;
+		width:30px;
+		height:40px;
+		position:relative;
+		left:40px;
+		top:-160px;
+		}	
+	#nextBtn,#slider1next{ 
+		display:block;
+		width:30px;
+		height:40px;
+		position:relative;
+		left:670px;
+		top:-200px;
+		}		
+														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:40px;
+		background:url(images/btn_prev.png) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(images/btn_next.png) no-repeat 0 0;	
+		}	
+		
+	/* numeric controls */	
+
+	ol#controls{
+		margin:1em 0;
+		padding:0;
+		height:28px;	
+		}
+	ol#controls li{
+		margin:0 10px 0 0; 
+		padding:0;
+		float:left;
+		list-style:none;
+		height:28px;
+		line-height:28px;
+		}
+	ol#controls li a{
+		float:left;
+		height:28px;
+		line-height:28px;
+		border:1px solid #ccc;
+		background:#DAF3F8;
+		color:#555;
+		padding:0 10px;
+		text-decoration:none;
+		}
+	ol#controls li.current a{
+		background:#5DC9E1;
+		color:#fff;
+		}
+	ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+	
+/* // Easy Slider */
