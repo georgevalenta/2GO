@@ -250,7 +250,7 @@ color: #aeaeae;
 	width: 350px;
 	height: 400px;
 	float: left;
-	/*background-color: #eeeeee;*/
+	background-color: rgba(0,0,0,0.1);
 }
 
 .mapa{
@@ -262,7 +262,7 @@ color: #aeaeae;
 /* FOOTER */
 
 #footer{
-	height: 150px;
+	height: 125px;
 	background-image: url(images/bg_footer.png);
 	background-position: center top;
 	background-repeat: repeat;
@@ -272,8 +272,8 @@ color: #aeaeae;
 
 
 #footer p{	
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 26px;
 	padding: 20px 0 10px 25px;
 	font-weight: 200;
 	color: white;	
@@ -281,30 +281,30 @@ color: #aeaeae;
 }
 
 #spolecnost{
-	width: 400px;
+	width: 350px;
 	float: left;
-	margin-top: -20px
+	margin-top: 0px
 	
 }
 
 #sidlo{
-	width: 300px;
+	width: 250px;
 	float: left;
-	margin-top: -20px
+	margin-top: 0px
 	
 }
 
 #telefon{
-	width: 300px;
+	width: 400px;
 	float: left;
-	margin-top: -20px
+	margin-top: 0px
 	
 }
 
 #telefon p{
 	font-size: 30px;
-	line-height: 38px;
-	text-align: right;
+	line-height: 41px;
+	text-align: left;
 	padding-right: 25px;
 }
 
